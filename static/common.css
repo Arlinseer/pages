@@ -1,0 +1,26 @@
+:root {
+	--background-primary: #1d3242;
+	--background-secondary: #253f54;
+	--background-tertiary: #2d4c66;
+	--background-quaternary: #355a78;
+	--mark-color: #8dd9fc;
+
+	--text-header: #f5f9fc;
+	--text-normal: #edf2f7;
+	--text-muted: #d5dde6;
+	--text-subtle: #bac4cf;
+
+	--color-red: #f26f61;
+	--color-green: #5af2a1;
+	--color-yellow: #f2ef8d;
+	--color-blue: #a7c9f2;
+	--color-magenta: #eda2f2;
+	--color-cyan: #a5ecf2;
+}
+
+body {
+	background-color: var(--background-primary);
+	color: var(--text-normal);
+
+	margin: 0;
+}
